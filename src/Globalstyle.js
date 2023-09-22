@@ -4,17 +4,10 @@ import 'modern-normalize';
 export const GlobalStyles = createGlobalStyle`
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  padding: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: sans-serif;
-  line-height: 1.5;
 }
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;}
 h1,
 h2,
 h3,
@@ -23,6 +16,7 @@ h5,
 h6,
 p {
   margin: 0;
+  padding: 0;
 }
 ul,
 ol {
@@ -34,8 +28,9 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
-  object-fit:cover;
+  object-fit: cover;
 }
-a{
-  text-decoration:none;
+a {
+  text-decoration: none;
+  padding: 0;
 }`;

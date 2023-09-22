@@ -8,5 +8,10 @@
         url('./font/Inter-Medium.ttf') format("truetype"),
         url('./font/Inter-Regular.ttf') format("truetype"),
         url("./font/Inter-SemiBold.ttf") format("truetype"),
-        url('./font/Inter-Thin.ttf') format("truetype");
+        url('./font/Inter-Thin.ttf') format("truetype"),
+        url('./font/Roboto-BlackItalic.ttf') format("truetype"),
+        url('./font/Roboto-BoldItalic.ttf') format("truetype"),
+        url('./font/Roboto-LightItalic.ttf') format("truetype"),
+        url('./font/Roboto-MediumItalic.ttf') format("truetype"),
+        url('./font/Roboto-ThinItalic.ttf') format("truetype")
 }
