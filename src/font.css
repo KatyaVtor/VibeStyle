@@ -1,5 +1,6 @@
 @font-face {
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif;
         src: url('./font/Inter-Black.ttf') format("truetype"),
         url('./font/Inter-Bold.ttf') format("truetype"),
         url('./font/Inter-ExtraBold.ttf') format("truetype"),
@@ -13,5 +14,5 @@
         url('./font/Roboto-BoldItalic.ttf') format("truetype"),
         url('./font/Roboto-LightItalic.ttf') format("truetype"),
         url('./font/Roboto-MediumItalic.ttf') format("truetype"),
-        url('./font/Roboto-ThinItalic.ttf') format("truetype")
+        url('./font/Roboto-ThinItalic.ttf') format("truetype");
 }
